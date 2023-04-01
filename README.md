@@ -157,7 +157,7 @@ Non-trivial algorithms:
 
 ## Key Risks
 
-Risk: Many team members have term projects coming up, in addition to this one.
+Risk: Many team members have term projects coming up, in addition to this one.  
 Solution: Assign each team member what they should be coding as early as possible in order to allow them to prioritize their time.
 
 ## Team
