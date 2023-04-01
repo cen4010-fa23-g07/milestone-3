@@ -10,10 +10,8 @@
 5. [High-Level Functional Requirements](#high-level-requirements)
 6. [List of Non-Functional Requirements](#list-of-non-functional-requirements)
 7. [High-Level System Architecture](#high-level-system-architecture)
-8. [High-Level UML Design](#high-level-uml-diagrams)
-9. [Key Risks](#key-risks)
-10. [Team](#team)
-11. [Checklist](#checklist)
+8. [Team](#team)
+9. [Checklist](#checklist)
 
 ## Executive Summary
 
@@ -45,9 +43,9 @@ Our product will do everything our competitors' products can do and more. All of
 **Support** - Actor who helps a consumer in need of usage towards the program.  
 **Favorable** - Suggest common problems to users after many similar equations are presented.  
 **Solve/Explain** - To move on to the next step of the equation with an explaination as to why it is.  
-**Stats** - A statistical overview of what the user accomplished, studied, practiced, etc. 
-**Adding** - Actor storing specified equations into their Account history. 
-**Delete** - Actor deleting account. 
+**Stats** - A statistical overview of what the user accomplished, studied, practiced, etc.  
+**Adding** - Actor storing specified equations into their Account history.  
+**Delete** - Actor deleting account.  
 **Update** - Actor is given option to update their Account's password and such.
 
 ## Overview, scenarios, and use-cases
@@ -165,9 +163,25 @@ Non-trivial algorithms:
 
 
 ## Key Risks
+### Skill Risks: General  
+- **Risk**: Many team members have term projects coming up, in addition to this one.  
+Solution: Assign each team member what they should be coding as early as possible in order to allow them to prioritize their time.  
 
-Risk: Many team members have term projects coming up, in addition to this one.  
-Solution: Assign each team member what they should be coding as early as possible in order to allow them to prioritize their time.
+### Technical Risks  
+- **Risk**: Coding issues (I.E. Finding poor quality code and finding bugs/ logical errors)  
+**Solution**: Testing code frequently to find bugs and logical errors to ease the fixing. Create a good coding standard for the group to follow through the entire coding experience instead of using unique variables from each team member.  
+- **Risk**: Poor risk management within the code.  
+**Solution**: Having a strong software developer team memeber to navigate through each other developer and identify their potential risk. Some errors cannot be shown just by testing and so it is best for a good software developer to monitor the risks.  
+
+### Teamwork Risks  
+- **Risk**: Improper coding variable amongst everyone.  
+**Solution**: Have a good proper coding variable setup as a team.  
+- **Risk**: Lack of communication  
+**Solution**: Always communicate with each other our plans so they don't intertwine and jeopardize with eachother coding.  
+
+### Legal/content Risks
+- **Risk**: Maybe too similar to compeititors.  
+**Solution**: Ultimately with our final product, it will most definitely be anything similar to our compeititors and if so, we will change what is necessary to be legal.
 
 ## Team
 
