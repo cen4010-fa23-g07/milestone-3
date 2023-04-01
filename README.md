@@ -155,6 +155,9 @@ Non-trivial algorithms:
 
 ## High-Level UML Diagrams
 
+![image](https://user-images.githubusercontent.com/124008459/229259686-1f2a2721-4f02-4360-899e-e0628ecc37e4.png)
+
+
 ## Key Risks
 
 Risk: Many team members have term projects coming up, in addition to this one.  
