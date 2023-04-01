@@ -43,6 +43,10 @@ Our product will do everything our competitors' products can do and more. All of
 **Support** - Actor who helps a consumer in need of usage towards the program.  
 **Favorable** - Suggest common problems to users after many similar equations are presented.  
 **Solve/Explain** - To move on to the next step of the equation with an explaination as to why it is.  
+**Stats** - A statistical overview of what the user accomplished, studied, practiced, etc. 
+**Adding** - Actor storing specified equations into their Account history. 
+**Delete** - Actor deleting account. 
+**Update** - Actor is given option to update their Account's password and such.
 
 ## Overview, scenarios, and use-cases
 
