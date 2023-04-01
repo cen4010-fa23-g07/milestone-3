@@ -10,8 +10,10 @@
 5. [High-Level Functional Requirements](#high-level-requirements)
 6. [List of Non-Functional Requirements](#list-of-non-functional-requirements)
 7. [High-Level System Architecture](#high-level-system-architecture)
-8. [Team](#team)
-9. [Checklist](#checklist)
+8. [High-Level UML Diagram](#high-level-uml-diagrams)
+9.  [Key Risk](#key-risks)
+10. [Team](#team)
+11. [Checklist](#checklist)
 
 ## Executive Summary
 
