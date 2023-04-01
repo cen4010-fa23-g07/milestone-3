@@ -146,6 +146,13 @@ Main database tables:
 
 Media (e.g. images used for the front end) will be kept in the filesystem.
 
+Search/filter architecture:
+
+APIs:
+
+Non-trivial algorithms:
+- The application will give the user the option to generate a new (set of) equation(s) based on their current entries. The application will do this by randomizing the user's input into the new equation, but it will also need to be verified as solveable and not too difficult. To do this, the algorithm will first attempt to solve the generated equation without showing the user. If it is successful, it will then check the number of steps it took to solve it, and will present it to the user if the number of steps is similar to the user's original problem. Else, it will attempt to generate a new equation.
+
 ## High-Level UML Diagrams
 
 ## Key Risks
