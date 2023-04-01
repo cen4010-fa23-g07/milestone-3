@@ -127,6 +127,7 @@ Additionally, the code can also be used as a library: If a developer needs a sim
     - A lot of debugging, testing, and overall modifications implemented onto our product.
     - Usage of best code practices.
 7. Fault tolerance
+    - The application will inform the user if the equation is unsolveable.
     - The application will inform the user if something within the system has failed.
     - The application should not cause undefined behavior under any user input.
 
@@ -138,7 +139,16 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 
 The tooling is straightforward and traditional. C++ will be the main programming language employed for the implementation of the project, with Python being used for more specific purposes such as the Graphing feature, whereas C++ will be used for the general-purpose programming of the project. The C++ version used would be a modern one, C++17 or above to make use of the latest features provided by the C++ standard and its compilers. No build tool (ex. CMake) will be used for the project since the project structure will be relatively straightforward.
 
+Main database tables:
+1. User (contains username, password, userid)
+2. Equations (contains problemid, equation(s), solution(s))
+3. History (contains userid, problemid)
+
+Media (e.g. images used for the front end) will be kept in the filesystem.
+
 ## High-Level UML Diagrams
+
+## Key Risks
 
 ## Team
 
