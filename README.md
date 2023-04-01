@@ -60,7 +60,7 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 
 
 ## High level requirements
-
+### Priority 1: Must-Haves
 1. Set usage functionality (linear equation, a system of equations, etc)
     - Set the program functionality for different types of equations.
     - Base options will include linear equations and systems of equations.
@@ -76,36 +76,39 @@ Additionally, the code can also be used as a library: If a developer needs a sim
     - Step mode: Reveals one step of the solution to the user after each activation.
     - Quiz mode: Prompts the user for the next step towards the solution, and checks for accuracy.
     - Practice mode: Generates random linear equations for the user to solve, then allows them to check their answer.
-4. History
+4. Source-code Library
+    - All essential functions of the software will be available as a C++ source-code library.
+    - Usage of all primary functions, including the usage type, equation solving, and history/retrieval will be available.
+    
+### Priority 2: Desired
+1. Plotting
+    - Ask the user if the linear expression needs to be graphed for visual understanding.
+2. History
     - Each equation is stored in the history, for the user to revisit.
     - Over time old solutions are culled.
     - User accuracy in the quiz mode will be saved to the user's stats. This can be cleared at any time.
-5. Plotting
-    - Ask the user if the linear expression needs to be graphed for visual understanding.
-6. Source-code Library
-    - All essential functions of the software will be available as a C++ source-code library.
-    - Usage of all primary functions, including the usage type, equation solving, and history/retrieval will be available.
-7. Non-Registered Member
+3. Stats
+    - Shows statistic on what the type of questions user is best at
+    - Shows statistic on what the most failed types of questions are
+4. Adding
+    - Gives user option to add specific equation to their history 
+
+### Priority 3: Opportunistic
+1. More Example Mode
+    - User prompted if they would like more similar questions to their functionality.
+    - Randomizes numbers from the user's first input onto the next question.
+2. Non-Registered Member
     - User is given the option to register for an account which would allow for **4.History** to be possible.
     - User is prompted to input a valid email address and password **(Must meet criteria of at least 1 capital letter, symbol, numbers)**.
     - User may also have the option to register via google account.
-8. Registered Member
+3. Registered Member
     - User prompted to enter login credentials **(email address and password)**.
     - Given access to **4.History**
-9. More Example Mode
-    - User prompted if they would like more similar questions to their functionality.
-    - Randomizes numbers from the user's first input onto the next question.
-10. Update
+4. Update
     - User is given the option to update their account password,username or email
     - Restrictions on user to make sure the password isn't the same as previous password/s.
-11. Adding
-    - Gives user option to add specific equation to their history 
-12. Delete
-    - User is given option to delete their account.
-13. Stats
-    - Shows statistic on what the type of questions user is best at
-    - Shows statistic on what the most failed types of questions are
-    
+5. Delete
+    - User is given option to delete their account.  
 
 ## List of non-functional requirements.
 
@@ -124,8 +127,10 @@ Additionally, the code can also be used as a library: If a developer needs a sim
     - A lot of debugging, testing, and overall modifications implemented onto our product.
     - Usage of best code practices.
 7. Fault tolerance
+    - The application will inform the user if the equation is unsolveable.
     - The application will inform the user if something within the system has failed.
     - The application should not cause undefined behavior under any user input.
+
 
 ## High-level system architecture
 
@@ -133,6 +138,17 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 **Tools:** g++, Visual Studio/Visual Studio Code, Git
 
 The tooling is straightforward and traditional. C++ will be the main programming language employed for the implementation of the project, with Python being used for more specific purposes such as the Graphing feature, whereas C++ will be used for the general-purpose programming of the project. The C++ version used would be a modern one, C++17 or above to make use of the latest features provided by the C++ standard and its compilers. No build tool (ex. CMake) will be used for the project since the project structure will be relatively straightforward.
+
+Main database tables:
+1. User (contains username, password, userid)
+2. Equations (contains problemid, equation(s), solution(s))
+3. History (contains userid, problemid)
+
+Media (e.g. images used for the front end) will be kept in the filesystem.
+
+## High-Level UML Diagrams
+
+## Key Risks
 
 ## Team
 
